@@ -5,7 +5,7 @@ An uninitialized constant is throwing the error because the Pokemon model does n
 The Pokemons do appear because first, we've seeded the database with around four Pokemon, second, in the `home_controller`, we have picked out a variable `@pokemon` to represent a Pokemon in the database that is still currently without a trainer, and (3) in `views>home>index.html.erb`, we have Ruby code that prints the wild `@pokemon` is happening to appear, so long as both the wild `@pokemon` exists (there is a Pokemon without a trainer in the database) and there is a current trainer (a user is logged in). If `@pokemon` is deinitialized, than trainer will be deleted.
 
 # Question 2a: What does the following line do "<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>"? Be specific about what "capture_path(id: @pokemon)" is doing. If you're having trouble, look at the Help section in the README.
-It creates a button that, once clicked, will call the patch route prefixed with `capture`. The `@pokemon` parameter (the current wild pokemon) is sent as the input parameter along the `capture_path`, which calls on the `#capture` action in the `pokemons_controller`. The capture method runs, and redirects back to the homepage via the `root_path`.
+This creates a special button that, if it's clicked, will call the patch route that starts with `capture`. The `@pokemon` parameter (the current wild pokemon) is sent as the input parameter along the `capture_path`, which calls on the `#capture` action in the `pokemons_controller`. The capture method runs, and redirects back to the homepage via the `root_path`.
 
 # Question 3: What would you name your own Pokemon?
 Kodasaur
