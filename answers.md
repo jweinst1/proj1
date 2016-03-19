@@ -21,4 +21,4 @@ This project was pretty enjoyable to work on, and I think I've also learned the 
 I think lectures cover good walkthroughs of how everything works/what we're expected to know how to do. Some suggestions: it would be helpful to have more words/information on the slides, and maybe even have a version/snippets of the code from the live demos available post-lecture (I know they sometimes follow the homeworks pretty closely, so maybe just snippets?). I do learn a lot from having to look elsewhere and Google/read docs, but sometimes there are specific things that happened in lecture that I want to remember or small things I didn't catch the first time around, and it's hard to go back and look for these details without having to search through the entire videos again. The live coding demos are really helpful, though!
 
 # Extra credit: Link your Heroku deployed app
-http://pokeportalproject.herokuapp.com/
+
