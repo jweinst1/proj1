@@ -1,0 +1,4 @@
+<%= simple_form_for @pokemon do |f| %>
+	<p><%= f.input :name, label: 'Name', placeholder: 'e.g. Kodasaur', error: 'Please name your Pokemon a unique name.' %></p>
+	<%= f.button :submit %>
+<% end %>
